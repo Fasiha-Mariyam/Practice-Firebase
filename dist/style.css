@@ -1,0 +1,57 @@
+/* Apply a basic reset to remove default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the forms horizontally */
+  form {
+    max-width: 300px;
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the input fields */
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the buttons */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the buttons on hover */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add specific styles for the "add" form */
+  .add {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add specific styles for the "delete" form */
+  .delete {
+    background-color: #e57373;
+    color: white;
+  }
+  

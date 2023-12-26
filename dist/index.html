@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Firebase</title>
+</head>
+<body>
+    <form class="add">
+        <h2>Signin Form</h2><br>
+      <label for="name">Name:</label>
+      <input type="text" name="name" required id="name">
+      <label for="email">Email:</label>
+      <input type="email" name="email" required id="email">
+      <label for="password">Password</label>
+      <input type="password" name="password" required id="password">
+      
+      <button>Submit</button>
+    </form>
+
+    <form class="update">
+      <label for="id">User Email:</label>
+      <input type="text" name="upemail" required>
+      <label for="password">Reset Password</label>
+      <input type="password" name="uppass" required>
+  
+      <button>Reset Password</button>
+    </form>
+  
+    <form class="delete">
+        <h2>Delete Your Account</h2><br>
+      <label for="id">User id:</label>
+      <input type="text" name="id" required id="deleteID">
+  
+      <button>Delete Me</button>
+    </form>
+  
+  
+    <h2>Firebase Auth</h2>
+  
+    <form class="signup">
+      <label for="email">email:</label>
+      <input type="email"name="email">
+      <label for="password">password:</label>
+      <input type="password" name="password">
+      <button>signup</button>
+    </form>
+
+    <h1>LOGIN</h1>
+    <form class="login">
+      <label for="email">email:</label>
+      <input type="email"name="email">
+      <label for="password">password:</label>
+      <input type="password" name="password" required>
+      <button>login</button>
+    </form>
+  <center>
+    
+    <button class="logout">logout</button>
+   
+  </center>
+    <script src="bundle.js"></script>
+</body>
+</html>
